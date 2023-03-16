@@ -1,0 +1,23 @@
+.carousel.carousel-slider .control-arrow:hover {
+  background: transparent !important;
+}
+
+.carousel.carousel-slider .control-arrow {
+  top: 0;
+  color: #fff;
+  bottom: 0;
+  margin-top: 0;
+  padding: 15px !important;
+}
+.sog {
+  position: absolute;
+  bottom: 0;
+  left: 150px;
+  z-index: 9999;
+  color: white;
+  background-color: #0ebae8;
+  padding: 10px 19px;
+}
+.carousel-area {
+  position: relative;
+}

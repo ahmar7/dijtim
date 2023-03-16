@@ -38,3 +38,8 @@ h5,
 h6 {
   margin: 0;
 }
+.an {
+  width: 100%;
+  background-color: lightgray;
+  height: 30vh;
+}

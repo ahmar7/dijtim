@@ -1,0 +1,101 @@
+.filter-cards {
+  background-color: #dee7ee;
+  padding: 25px 0;
+}
+.drop-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+}
+
+.Dropdown-root {
+  width: 100% !important;
+}
+
+.Dropdown-control {
+  cursor: pointer;
+  border: none !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  text-align: left;
+  border-radius: 0 !important;
+  padding-left: 15px !important;
+  width: 98%;
+}
+.Dropdown-menu {
+  width: 98% !important;
+}
+
+.Dropdown-arrow {
+  top: 22px !important;
+}
+.Dropdown-option {
+  text-align: left;
+  width: 98%;
+}
+.filter-btn {
+  width: 100%;
+}
+.filter-btn button {
+  padding: 16px 0px;
+  width: 97%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.cards-flex {
+  margin-top: 40px !important;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.indiv-card {
+  width: 24.9%;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+}
+.absolute-desc {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.884);
+  bottom: 0;
+  width: 100%;
+  padding: 12px 20px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.indiv-card img {
+  vertical-align: middle;
+  width: 100%;
+}
+.prop-img {
+  scale: 1.1;
+  transition: all 0.3s ease;
+}
+.indiv-card:hover .prop-img {
+  scale: 1;
+  transition: all 0.3s ease;
+}
+.ab-white {
+  text-align: left;
+  color: white;
+  font-size: 15px;
+}
+
+.ab-num {
+  text-align: left;
+  color: #0ebae8;
+  font-size: 18px !important;
+}
+
+.right-desc img {
+  width: 85px;
+}

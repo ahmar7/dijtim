@@ -1,0 +1,59 @@
+.demo-main {
+  background-image: url(../../assets/img/demo/hiw-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  /* padding: 50px 0; */
+  margin-top: 40px;
+}
+.overlay {
+  /* padding: 50px 0; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.774);
+}
+.velco {
+  color: white;
+  font-weight: normal;
+  font-size: 21px;
+}
+.demo-detail {
+  text-align: left;
+
+  padding: 50px 0;
+}
+.demo-head {
+  font-size: 25px;
+  color: white;
+  font-weight: normal;
+}
+.demo-desc {
+  color: gray;
+  margin: 25px 0;
+}
+.green {
+  color: #50b848 !important;
+  margin: 20px 0;
+}
+.indiv-demo {
+  width: 35%;
+}
+.demo-icos {
+  margin-top: 50px !important;
+  display: flex;
+}
+
+.demo-btn {
+  text-align: center;
+}
+.demo-btn button {
+  background-color: #50b848;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  margin-top: 25px;
+}
