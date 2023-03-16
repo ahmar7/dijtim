@@ -99,3 +99,33 @@
 .right-desc img {
   width: 85px;
 }
+
+@media (max-width: 1100px) {
+  .indiv-card {
+    width: 49.8%;
+  }
+}
+
+@media (max-width: 768px) {
+  .drop-filter {
+    flex-direction: column;
+  }
+  .location-select {
+    margin: 5px 0;
+  }
+  .filter-btn {
+    box-sizing: border-box;
+    margin: 5px 0;
+  }
+  .filter-btn button {
+    width: 100%;
+  }
+  .Dropdown-control {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .indiv-card {
+    width: 100%;
+  }
+}

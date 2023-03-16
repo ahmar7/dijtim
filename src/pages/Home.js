@@ -11,8 +11,8 @@ const Home = () => {
     <div className="home-page">
       <Header />
       <HeroSection />
-      {/* <PropertyCards />
-      <Demo />
+      <PropertyCards />
+      {/* <Demo />
       <News />
       <Footer /> */}
     </div>
