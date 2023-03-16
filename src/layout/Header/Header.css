@@ -104,6 +104,9 @@
 .mbl-only {
   display: none;
 }
+.hidden {
+  display: none !important;
+}
 @media (max-width: 768px) {
   .header-right {
     justify-content: center;
@@ -164,9 +167,7 @@
     background-color: #dee6ee;
     /* padding: 10px 15px; */
   }
-  .hidden {
-    display: none;
-  }
+
   .navbar {
     display: block;
   }
