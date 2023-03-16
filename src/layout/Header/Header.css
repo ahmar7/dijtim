@@ -121,6 +121,10 @@
   .header-social {
     display: none;
   }
+  .bar {
+    display: flex;
+  }
+
   .top-bar {
     /* padding: 10px 0; */
     height: 45px;
