@@ -122,7 +122,9 @@
     display: none;
   }
   .top-bar {
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    height: 45px;
+    align-items: center;
     display: flex;
     justify-content: space-between;
   }
