@@ -126,6 +126,7 @@
 }
 @media (max-width: 600px) {
   .indiv-card {
+    margin: 5px 0;
     width: 100%;
   }
 }
