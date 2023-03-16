@@ -175,11 +175,28 @@
     transition: all 0.4s ease;
     overflow: hidden;
     position: absolute;
-    top: 19px;
+    top: 33px;
     z-index: 99;
     text-align: left;
     width: 200px;
     left: 0;
+  }
+  .header-links {
+    background-color: #dee6ee;
+  }
+  .header-links .mbl-only {
+    text-align: center;
+  }
+  .mbl-only hr {
+    border: none;
+    margin-bottom: 15px;
+    border-top: 1px solid white !important;
+  }
+  .mbl-only .ico-fb {
+    padding: 10px 0;
+  }
+  .no-border {
+    border: none !important;
   }
   .overlay {
     background-color: rgba(0, 0, 0, 0.705);
@@ -200,7 +217,7 @@
     padding: 5px 15px;
   }
   .full-open {
-    height: 289px;
+    height: 362px;
     transition: all 0.4s ease;
   }
 }

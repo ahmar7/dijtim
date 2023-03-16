@@ -74,6 +74,15 @@ const Header = () => {
                   <NavLink>KONTAKT</NavLink>
                 </li>
               </ul>
+              <div className="mbl-only">
+                <hr />
+                <a className="ico-fb no-border " href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a className="ico-fb no-border  " href="">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>

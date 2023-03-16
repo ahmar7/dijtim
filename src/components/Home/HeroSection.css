@@ -21,3 +21,9 @@
 .carousel-area {
   position: relative;
 }
+.sog {
+  width: 100%;
+  left: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
