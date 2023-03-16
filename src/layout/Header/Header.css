@@ -122,7 +122,7 @@
     display: none;
   }
   .top-bar {
-    padding: 5px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
   }
@@ -133,10 +133,12 @@
     width: 96vw;
   }
   .bar i {
+    font-size: 21px;
     color: white;
   }
   .mbl-no i {
     margin-right: 5px;
+    font-size: 18px;
     color: white;
   }
   .header-links ul li a:hover {
@@ -177,7 +179,7 @@
     overflow: hidden;
     position: absolute;
     top: 33px;
-    z-index: 99;
+    z-index: 999999;
     text-align: left;
     width: 200px;
     left: 0;
@@ -206,7 +208,7 @@
     left: 0;
     height: 100vh;
     width: 100%;
-    z-index: 1;
+    z-index: 999;
   }
   .close-bar {
     background-color: #dee6ee;
