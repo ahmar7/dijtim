@@ -1,16 +1,40 @@
-:root {
-  --green: #09af2e;
-  --green-hover: #009120;
-  --green-active: #00751a;
-  --light-green: #374f3d;
-  --white: #ffffff;
-  --input-border: #cbd5e1;
-  --font: "Inter", sans-serif;
-  --text-color: #0f172a;
-  --business-bg: #fafcfd;
-  --gift-bg: #fafcfd;
-  --light-bg: #def4e3;
-  --icon-color: #4c546e;
-  --icon-light: #2a2f3f;
-  --font2: "Montserrat", sans-serif;
+@font-face {
+  font-family: fontAwesome;
+  src: url(../fonts/fontawesome-webfont.ttf);
+}
+body {
+  padding: 0;
+  font-family: "Poppins", sans-serif !important;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+input {
+  border: none;
+  outline: none;
+}
+.container-width {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }

@@ -1,0 +1,103 @@
+.navbar {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-logo p {
+  color: gray;
+  font-size: 13px;
+}
+.header-logo {
+  width: 20%;
+}
+.header-right {
+  width: 70%;
+}
+
+.header-social {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(197, 197, 197);
+  justify-content: space-between;
+}
+.num {
+  color: #1f84be;
+  font-size: 13px;
+}
+.social-ico a {
+  color: gray;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.social-ico a img {
+  width: 18px;
+  margin-right: 5px;
+}
+.social-ico {
+  display: flex;
+}
+.ico-fb {
+  padding: 12px 18px;
+  border-right: 1px solid rgb(197, 197, 197);
+  transition: all 0.3s ease;
+}
+.ico-fb i {
+  font-size: 14px;
+  color: gray;
+}
+.twiter {
+  border-bottom: 5px solid #58c7ff;
+}
+.fb {
+  border-bottom: 5px solid #466bc6;
+}
+.time-link {
+  transition: all 0.3s ease;
+
+  margin-right: 20px;
+}
+.fb:hover {
+  background-color: #466bc6;
+  transition: all 0.3s ease;
+}
+.fb:hover i {
+  color: white;
+}
+.twiter:hover {
+  background-color: #58c7ff;
+  transition: all 0.3s ease;
+}
+.twiter:hover i {
+  color: white;
+}
+.header-links ul {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+}
+.header-links ul li {
+  padding: 15px 0;
+}
+.header-links ul li a {
+  box-sizing: border-box;
+  color: #4a525d;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  padding: 6px 20px;
+}
+.active-link {
+  color: white !important;
+  background-color: #4a525d;
+}
+.header-links ul li a:hover {
+  color: white !important;
+  background-color: #4a525d;
+  transition: all 0.3s ease;
+}
+.time-link:hover {
+  color: rgb(70, 70, 70);
+  transition: all 0.3s ease;
+}
