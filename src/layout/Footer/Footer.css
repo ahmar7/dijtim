@@ -15,7 +15,7 @@
 }
 
 .gray {
-  color: #6a7077 !important;
+  color: #8b8b8b !important;
 }
 .white {
   color: white;
@@ -28,4 +28,16 @@
 }
 .footer-ul li {
   margin: 8px 0;
+}
+.footer-lists {
+  display: flex;
+  justify-content: space-between;
+}
+.no-border {
+  margin-right: 18px;
+}
+.ico-fb-footer {
+  /* padding: 0px 18px; */
+  color: #8b8b8b;
+  font-size: 20px;
 }
