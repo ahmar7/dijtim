@@ -13,6 +13,8 @@ import Property5 from "../assets/img/property/property-9-660x600.jpg";
 import Property6 from "../assets/img/property/property-10-660x600.jpg";
 import Property7 from "../assets/img/property/property-8-660x600.jpg";
 import Property8 from "../assets/img/property/property-3-660x600.jpg";
+import News4 from "../assets/img/property/property-1-850x570.jpg";
+import News5 from "../assets/img/property/property-13-850x570.jpg";
 import Tag from "../assets/img/tag.png";
 import Tag2 from "../assets/img/tag2.png";
 import Demo1 from "../assets/img/demo/icon-1.svg";
@@ -26,6 +28,7 @@ import PropertyBlog from "../assets/img/property/property-12-850x570.jpg";
 import PropertyBlog2 from "../assets/img/property/property-12-660x600.jpg";
 import Marker from "../assets/img/svg/map-marker.svg";
 import NewsPost from "../assets/img/news/news-post-4-850x570.jpg";
+import NewsPost1 from "../assets/img/news/news-post-3-850x570.jpg";
 import NewsPost2 from "../assets/img/news/news-post-5-850x570.jpg";
 import NewsPost3 from "../assets/img/news/news-post-7-850x570.jpg";
 import Team1 from "../assets/img/agent/agent-1.jpg";
@@ -33,6 +36,9 @@ import Team2 from "../assets/img/agent/agent-2.jpg";
 import Team3 from "../assets/img/agent/agent-3.jpg";
 import Team4 from "../assets/img/agent/agent-4.jpg";
 export {
+  News4,
+  News5,
+  NewsPost1,
   Team1,
   Team2,
   Team3,
