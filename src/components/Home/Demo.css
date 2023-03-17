@@ -4,10 +4,11 @@
   background-position: center;
   height: 100vh;
 
+  background-repeat: no-repeat;
   /* padding: 50px 0; */
   margin-top: 40px;
 }
-.overlay {
+.overlay-bg {
   /* padding: 50px 0; */
   height: 100vh;
   display: flex;
@@ -56,4 +57,24 @@
   font-size: 20px;
   color: white;
   margin-top: 25px;
+}
+@media (max-width: 1300px) {
+  .demo-icos {
+    gap: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .demo-icos {
+    gap: 0;
+  }
+  .indiv-demo {
+    width: 100%;
+  }
+  .demo-main,
+  .overlay-bg {
+    height: auto;
+  }
+  .demo-icos {
+    flex-direction: column;
+  }
 }

@@ -1,0 +1,87 @@
+.main-blogcards {
+  background-color: #eff1f5;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.blog-filter {
+  display: flex;
+  justify-content: space-between;
+}
+.boliger-select h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.blog-filter .Dropdown-root {
+  width: 262px !important;
+}
+.all-cards {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-propety {
+  width: 32%;
+  position: relative;
+  margin: 15px 0;
+}
+.single-propety .single-prop {
+  width: 100%;
+  vertical-align: middle;
+}
+.white-prop {
+  padding: 14px;
+  background-color: white;
+}
+.white-prop h4 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+}
+.collect {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tag2 {
+  position: absolute;
+  left: -2px;
+  top: 50px;
+  width: 90px;
+  z-index: 9;
+}
+.pagination {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.pagination p {
+  cursor: pointer;
+  padding: 15px 25px;
+  background-color: white;
+}
+.pg-active {
+  background-color: #0ebae8 !important;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .tag2 {
+    position: absolute;
+    left: -2px;
+    top: 30px;
+    width: 90px;
+    z-index: 9;
+  }
+  .single-propety {
+    width: 48%;
+  }
+}
+@media (max-width: 600px) {
+  .single-propety {
+    width: 100%;
+  }
+}

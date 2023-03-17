@@ -1,0 +1,72 @@
+.blog-hero {
+  margin-top: 50px;
+}
+.blog-bg {
+  padding-bottom: 80px;
+  padding-top: 20px;
+  background-color: #eff1f5;
+}
+.img-flex {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+.property-contact {
+  background-color: #4a515c;
+  padding: 25px;
+}
+.property-heading {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.loc {
+  color: rgb(148, 148, 148);
+  font-size: 13px;
+  margin: 12px 0;
+}
+/* .prop-no */
+.my {
+  margin: 15px 0;
+}
+.text-area {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+.button-besked button {
+  background-color: #0ebae8;
+  padding: 12px 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.hero-desc {
+  background-color: white;
+  margin-top: 10px;
+  padding: 30px 18px;
+  text-align: left;
+}
+.gate {
+  font-weight: 400;
+  color: #0ebae8;
+}
+.para {
+  margin-top: 20px;
+  color: #6a7e8f;
+}
+@media (max-width: 1200px) {
+  .property-bh {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-flex {
+    flex-direction: column;
+  }
+  .property-bh {
+    width: 100%;
+  }
+}

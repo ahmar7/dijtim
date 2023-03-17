@@ -41,3 +41,26 @@
   color: #8b8b8b;
   font-size: 20px;
 }
+
+@media (max-width: 940px) {
+  .footer-lists {
+    flex-direction: column;
+  }
+
+  .footer-links,
+  .logo-list {
+    width: 250px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer-flex {
+    flex-direction: column;
+    gap: 0;
+  }
+  .footer-links,
+  .logo-list {
+    width: 100%;
+    margin: 20px 0;
+  }
+}

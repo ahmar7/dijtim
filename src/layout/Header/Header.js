@@ -56,22 +56,22 @@ const Header = () => {
             >
               <ul>
                 <li>
-                  <NavLink className="active-link ">HIJEM</NavLink>
+                  <NavLink to="/">HIJEM</NavLink>
                 </li>
                 <li>
-                  <NavLink>BOLIGER</NavLink>
+                  <NavLink to="/boliger">BOLIGER</NavLink>
                 </li>
                 <li>
-                  <NavLink>NYHEDER</NavLink>
+                  <NavLink to="/nyheder">NYHEDER</NavLink>
                 </li>
                 <li>
-                  <NavLink>MAEGLERE</NavLink>
+                  <NavLink to="/maeglere">MAEGLERE</NavLink>
                 </li>
                 <li>
-                  <NavLink>GALLERI</NavLink>
+                  <NavLink to="/galleri">GALLERI</NavLink>
                 </li>
                 <li>
-                  <NavLink>KONTAKT</NavLink>
+                  <NavLink to="/kontakt">KONTAKT</NavLink>
                 </li>
               </ul>
               <div className="mbl-only">

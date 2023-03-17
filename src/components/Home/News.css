@@ -43,3 +43,24 @@
   font-size: 28px;
   color: rgb(51, 51, 51);
 }
+@media (max-width: 940px) {
+  .news-indiv {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .news-flex {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .news-indiv {
+    margin: 15px 0;
+    gap: 25px;
+    flex-direction: column;
+  }
+  .ne-se {
+    width: 100%;
+  }
+}

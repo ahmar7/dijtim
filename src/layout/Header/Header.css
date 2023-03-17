@@ -1,6 +1,6 @@
 .navbar {
   margin-top: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -88,7 +88,7 @@
   transition: all 0.3s ease;
   padding: 6px 20px;
 }
-.active-link {
+.active {
   color: white !important;
   background-color: #4a525d;
 }
@@ -136,7 +136,7 @@
     background-color: black;
   }
   .container-width {
-    width: 95vw;
+    width: 93vw;
   }
   .bar i {
     font-size: 21px;
@@ -163,7 +163,7 @@
     background-color: #4a525d;
     transition: all 0.3s ease;
   }
-  .active-link {
+  .active {
     background-color: transparent;
     color: #4a525d !important;
   }

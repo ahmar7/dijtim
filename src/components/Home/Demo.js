@@ -4,7 +4,7 @@ import "./Demo.css";
 const Demo = () => {
   return (
     <div className="demo-main">
-      <div className="overlay">
+      <div className="overlay-bg">
         <div className="container-width demo-detail">
           <h2 className="velco">Velkommen</h2>
           <h1 className="demo-head">Saelg din bolig hos os</h1>

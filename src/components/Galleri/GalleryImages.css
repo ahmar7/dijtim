@@ -1,0 +1,28 @@
+.gallery-main {
+  background-color: #eff1f5;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.images-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.img-single {
+  width: 33%;
+}
+
+.img-single img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .img-single {
+    width: 49%;
+  }
+}
+@media (max-width: 550px) {
+  .img-single {
+    width: 100%;
+  }
+}
