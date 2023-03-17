@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./propertyCards.css";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
@@ -48,7 +49,7 @@ const PropertyCards = () => {
         </div>
       </div>
       <div className="cards-flex container-width">
-        <div className="indiv-card">
+        <NavLink to="/boligerdetail" className="indiv-card">
           <img className="prop-img" src={Property1} alt="" />
           <div className="absolute-desc">
             <div className="left-desc">
@@ -59,8 +60,8 @@ const PropertyCards = () => {
               <img src={Tag} alt="" />
             </div>
           </div>
-        </div>
-        <div className="indiv-card">
+        </NavLink>
+        <NavLink to="/boligerdetail" className="indiv-card">
           <img className="prop-img" src={Property2} alt="" />
           <div className="absolute-desc">
             <div className="left-desc">
@@ -71,8 +72,8 @@ const PropertyCards = () => {
               <img src={Tag} alt="" />
             </div>
           </div>
-        </div>
-        <div className="indiv-card">
+        </NavLink>
+        <NavLink to="/boligerdetail" className="indiv-card">
           <img className="prop-img" src={Property3} alt="" />
           <div className="absolute-desc">
             <div className="left-desc">
@@ -83,8 +84,8 @@ const PropertyCards = () => {
               <img src={Tag} alt="" />
             </div>
           </div>
-        </div>
-        <div className="indiv-card">
+        </NavLink>
+        <NavLink to="/boligerdetail" className="indiv-card">
           <img className="prop-img" src={Property4} alt="" />
           <div className="absolute-desc">
             <div className="left-desc">
@@ -95,8 +96,8 @@ const PropertyCards = () => {
               <img src={Tag} alt="" />
             </div>
           </div>
-        </div>
-        <div className="indiv-card">
+        </NavLink>
+        <NavLink to="/boligerdetail" className="indiv-card">
           <img className="prop-img" src={Property5} alt="" />
           <div className="absolute-desc">
             <div className="left-desc">
@@ -107,8 +108,8 @@ const PropertyCards = () => {
               <img src={Tag} alt="" />
             </div>
           </div>
-        </div>
-        <div className="indiv-card">
+        </NavLink>
+        <NavLink to="/boligerdetail" className="indiv-card">
           <img className="prop-img" src={Property6} alt="" />
           <div className="absolute-desc">
             <div className="left-desc">
@@ -119,8 +120,8 @@ const PropertyCards = () => {
               <img src={Tag} alt="" />
             </div>
           </div>
-        </div>
-        <div className="indiv-card">
+        </NavLink>
+        <NavLink to="/boligerdetail" className="indiv-card">
           <img className="prop-img" src={Property7} alt="" />
           <div className="absolute-desc">
             <div className="left-desc">
@@ -131,8 +132,8 @@ const PropertyCards = () => {
               <img src={Tag} alt="" />
             </div>
           </div>
-        </div>
-        <div className="indiv-card">
+        </NavLink>
+        <NavLink to="/boligerdetail" className="indiv-card">
           <img className="prop-img" src={Property8} alt="" />
           <div className="absolute-desc">
             <div className="left-desc">
@@ -143,7 +144,7 @@ const PropertyCards = () => {
               <img src={Tag} alt="" />
             </div>
           </div>
-        </div>
+        </NavLink>
       </div>
     </>
   );

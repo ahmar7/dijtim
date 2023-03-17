@@ -38,6 +38,7 @@
   width: 100%;
 }
 .filter-btn button {
+  transition: all 0.3s ease;
   padding: 16px 0px;
   width: 97%;
   background-color: black;
@@ -95,7 +96,10 @@
   color: #0ebae8;
   font-size: 18px !important;
 }
-
+.filter-btn button:hover {
+  background-color: #0ebae8;
+  transition: all 0.3s ease;
+}
 .right-desc img {
   width: 85px;
 }
